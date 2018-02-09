@@ -1,7 +1,7 @@
-require 'fastlane/plugin/changelog/version'
+require 'fastlane/plugin/changelogunwire/version'
 
 module Fastlane
-  module Changelog
+  module Changelogunwire
     CHANGELOG_PATH = './../CHANGELOG.md'
     DEFAULT_CHANGELOG = '# Change Log
 All notable changes to this project will be documented in this file.
@@ -70,9 +70,9 @@ end
 
 # By default we want to import all available actions and helpers
 # A plugin can contain any number of actions and plugins
-Fastlane::Changelog.all_classes.each do |current|
+Fastlane::Changelogunwire.all_classes.each do |current|
   require current
 end
 
 # By default we want to ensure CHANGELOG.md is present
-Fastlane::Changelog.setup_changelog
+Fastlane::Changelogunwire.setup_changelog

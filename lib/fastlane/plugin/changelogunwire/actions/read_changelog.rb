@@ -80,7 +80,7 @@ module Fastlane
                                        env_name: "FL_READ_CHANGELOG_PATH_TO_CHANGELOG",
                                        description: "The path to your project CHANGELOG.md",
                                        is_string: true,
-                                       default_value: "./CHANGELOG.md",
+                                       default_value: "./../CHANGELOG.md",
                                        optional: true),
           FastlaneCore::ConfigItem.new(key: :section_identifier,
                                        env_name: "FL_READ_CHANGELOG_SECTION_IDENTIFIER",
