@@ -2,7 +2,7 @@ require 'fastlane/plugin/changelog/version'
 
 module Fastlane
   module Changelog
-    CHANGELOG_PATH = './CHANGELOG.md'
+    CHANGELOG_PATH = './../CHANGELOG.md'
     DEFAULT_CHANGELOG = '# Change Log
 All notable changes to this project will be documented in this file.
 

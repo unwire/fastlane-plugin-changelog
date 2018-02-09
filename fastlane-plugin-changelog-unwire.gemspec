@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fastlane/plugin/changelog/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-changelog'
+  spec.name          = 'fastlane-plugin-changelog-unwire'
   spec.version       = Fastlane::Changelog::VERSION
   spec.author        = %(Pavel Prochazka)
   spec.email         = %(pprochazka72@gmail.com)
@@ -21,5 +21,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'rspec'
-  spec.add_development_dependency 'rubocop'
 end
